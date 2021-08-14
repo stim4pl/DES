@@ -9,7 +9,7 @@ video = Video(VIDEO_FILE)
 trng = Generator(video, RESULT_OUTPUT)
 
 if __name__ == '__main__':
-    print("Welcome to the best DES encryptor/decryptor ever")
+    print("Welcome to the best DES encrypter/decrypter ever")
 
     while True:
         action = input("\nWhat you want to do\n1. Encrypt \n2. Decrypt \n")
