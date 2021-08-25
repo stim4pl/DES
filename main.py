@@ -37,11 +37,7 @@ if __name__ == '__main__':
                         key = input("\nEnter your key (Only 8-chars ASCII)")
                         if not (isASCII(key) and len(key) == 8):
                             print("\nYou have entered an invalid key")
-                            print(len(key))
-                            print(isASCII(key))
                         else:
-                            print(len(key))
-                            print(isASCII(key))
                             break
                     break
                 elif type_key == "2":
